@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Zendesk",
+	"description": "This is a repository of zendesk APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/zendesk.png",
+	"created": "2018-02-24",
+	"modified": "2018-09-01",
+	"url": "http://zendesk.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Zendesk",
+			"x-api-slug": "zendesk",
+			"description": "Customer service software and support ticketing system by Zendesk. Cloud-based help desk solution used by more than 200,000 organizations worldwide. Free 30-day trial.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/283-zendesk.jpg",
+			"humanURL": "http://www.zendesk.com/",
+			"baseURL": "https://{host}.zendesk.com//api/v2/",
+			"tags": "Zendesk",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/zendesk/master/_listings/zendesk/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Zendesk",
+	"include": [
+		{
+			"name": "Zendesk",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/zendesk/master/_listings/zendesk/apis.yaml"
+		}
+	]
+}
